@@ -1,0 +1,64 @@
+Step 1: Installing Git
+First, I needed to install Git on my Windows machine. Here’s how I did it:
+1.	Download Git: I visited the official Git website and downloaded the installer for Windows [1].
+2.	Run the Installer: After downloading, I ran the installer and followed the default settings, ensuring that the Git Bash was included for command line access.
+3.	Verify Installation: To verify the installation, I opened Git Bash and typed git --version. It displayed the installed version of Git, confirming the installation was successful.
+Step 2: Initial Configuration
+Next, I configured Git with my user information:
+1.	Set Username: In Git Bash, I ran the command:
+git config --global user.name "Your Name"
+2.	Set Email: Then, I set my email with:
+git config --global user.email "your.email@example.com"
+Step 3: Creating a GitHub Account
+To use GitHub, I created an account:
+1.	Sign Up: I went to the GitHub website and signed up for a new account.
+2.	Verify Email: After registration, I verified my email address by clicking the link sent to my email.
+Step 4: Creating a Repository on GitHub
+1.	New Repository: I logged into GitHub and clicked on the "New" button to create a new repository 
+2.	Repository Details: I named the repository "test_demo", added a description, and chose to initialize it with a README file.
+3.	Create Repository: Finally, I clicked on "Create repository".
+Step 5: Cloning the Repository Locally
+1.	Copy Repository URL: On the GitHub repository page, I clicked on the "Code" button and copied the URL.
+2.	Clone Repository: In Git Bash, I navigated to my desired directory and cloned the repository with:
+git clone https://github.com/yourusername/test_demo.git
+Step 6: Navigating and Making Changes
+1.	Navigate to Repository: I navigated into the cloned repository:
+cd test_demo
+2.	Create a New File: I created a new file using the touch command:
+touch newfile.txt
+3.	Add Changes: I added the file to the staging area:
+git add newfile.txt
+4.	Commit Changes: I committed the changes with a message:
+git commit -m "Add newfile.txt"
+5.	Push to GitHub: Finally, I pushed the changes to the remote repository:
+git push origin main
+
+screenshots
+c:\Users\RUOT WICHAR DUOP\OneDrive\Pictures\Screenshots\Screenshot 2024-06-30 234824.png
+c:\Users\RUOT WICHAR DUOP\OneDrive\Pictures\Screenshots\Screenshot 2024-06-30 234824.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
